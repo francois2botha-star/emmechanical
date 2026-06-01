@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | EM Mechanical</title>
+    <meta
+      name="description"
+      content="Book your vehicle service with EM Mechanical in Hermanus, South Africa. Contact us by phone, WhatsApp, email, or quick booking form."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Teko:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <header class="hero page-hero" id="top">
+      <nav class="nav shell">
+        <a class="brand" href="index.html#top" aria-label="EM Mechanical home">
+          <span class="brand-mark">EM</span>
+          <span class="brand-text">Mechanical</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html#top">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          Menu
+        </button>
+        <a class="btn btn-small" href="contact.html">Book Now</a>
+      </nav>
+      <div class="hero-content shell reveal">
+        <p class="kicker">BOOK YOUR VISIT</p>
+        <h1>Contact EM Mechanical</h1>
+        <p class="lead">
+          Tell us what your vehicle is doing, and we will help you plan the next
+          step quickly and clearly.
+        </p>
+      </div>
+      <div class="hero-stripes" aria-hidden="true"></div>
+    </header>
+
+    <main>
+      <section class="shell contact-layout">
+        <form class="contact-form reveal" data-booking-form>
+          <h2>Request a Booking</h2>
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            Vehicle Details
+            <input type="text" name="vehicle" placeholder="e.g. Toyota Hilux 2.4 GD-6" />
+          </label>
+          <label>
+            Service Needed
+            <select name="service">
+              <option value="">Select a service</option>
+              <option>Diagnostics</option>
+              <option>Engine Repairs</option>
+              <option>Transmission</option>
+              <option>Maintenance Service</option>
+              <option>Brakes and Tyres</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" placeholder="Tell us about the issue or warning lights"></textarea>
+          </label>
+          <button class="btn" type="submit">Send Booking Request</button>
+          <p>
+            Prefer chat? <a href="https://wa.me/27760922708" target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a>
+          </p>
+        </form>
+
+        <div class="reveal">
+          <div class="contact-panel">
+            <h3>Workshop Details</h3>
+            <p><strong>Phone:</strong> <a href="tel:+27760922708">+27 76 092 2708</a></p>
+            <p><strong>Email:</strong> <a href="mailto:francois2botha@gmail.com">francois2botha@gmail.com</a></p>
+            <p><strong>Address:</strong> H6HC+R64, Hermanus, Western Cape, South Africa</p>
+            <p><strong>Hours:</strong> Mon-Fri 08:00-17:30 | Sat 08:00-13:00</p>
+          </div>
+          <div class="map-frame" style="margin-top: 1rem">
+            <iframe
+              title="EM Mechanical Hermanus map"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=-34.420488,19.220563&z=17&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="shell footer-grid reveal">
+        <div>
+          <h2>Book with EM Mechanical</h2>
+          <p>
+            Call or email us to schedule diagnostics, routine service, or repair
+            work. Walk-ins are welcome when capacity allows.
+          </p>
+          <a class="btn" href="contact.html">Book a Service</a>
+        </div>
+        <div class="contact-panel">
+          <p><strong>Phone:</strong> <a href="tel:+27760922708">+27 76 092 2708</a></p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:francois2botha@gmail.com">francois2botha@gmail.com</a>
+          </p>
+          <p>
+            <strong>Address:</strong> H6HC+R64, Hermanus, Western Cape, South Africa
+          </p>
+          <p><strong>Hours:</strong> Mon-Fri 08:00-17:30 | Sat 08:00-13:00</p>
+          <p><a href="https://wa.me/27760922708" target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a></p>
+        </div>
+      </div>
+      <div class="shell mini-form-wrap reveal">
+        <form class="mini-form" data-booking-form>
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            Vehicle / Issue
+            <input type="text" name="issue" required />
+          </label>
+          <button class="btn" type="submit">Request Booking</button>
+        </form>
+      </div>
+      <p class="copyright">EM Mechanical | Hermanus, South Africa | Copyright 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
