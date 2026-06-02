@@ -32,12 +32,12 @@ bookingForms.forEach((form) => {
     const issue = (data.get('issue') || data.get('message') || '').toString().trim();
     const vehicle = (data.get('vehicle') || '').toString().trim();
     const service = (data.get('service') || '').toString().trim();
-    const subject = encodeURIComponent('Booking Request - EM Mechanical');
+    const subject = encodeURIComponent('Booking Request - Whaleberg motor repairs n services');
     const body = encodeURIComponent(
       `Name: ${name}\nPhone: ${phone}\nVehicle: ${vehicle}\nService: ${service}\nIssue: ${issue}`
     );
 
-    window.location.href = `mailto:francois2botha@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:Whalebergmotors@gmail.com?subject=${subject}&body=${body}`;
   });
 });
 
